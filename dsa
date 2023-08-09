@@ -1,0 +1,23 @@
+#include<stdio.h>
+
+int main(){
+    char o,y;
+    int x;
+    long int z;
+    printf("Hello .This is C");
+    printf("\nI am Om verma");
+    printf("\nEnter your age=");
+    scanf("%d",&x);
+    if(x>=18)
+    {printf("You can fill this form which is given below");
+    printf("\nEnter your Name=");
+    scanf("%c",&o);
+    printf("\nEnter your College name=");
+    scanf("%c",&y);  
+    printf("\nEnter your phone no.=");
+    scanf("%ld",&z);
+    printf("\nThanks for filling this form");}
+    else
+    {printf("Sorry you are not eligible ");}
+    return 0;
+}
